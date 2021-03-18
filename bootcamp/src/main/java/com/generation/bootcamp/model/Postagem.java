@@ -17,12 +17,12 @@ import javax.validation.constraints.Size;
 public class Postagem {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY) /*Auto increment*/
 	private long id;
 	
 	
 	@NotNull
-	@Size(min = 5, max = 100)
+	@Size(min = 5, max = 100)/*Delimitador min 5 max 100*/
 	private String titulo;
 	
 	@NotNull
