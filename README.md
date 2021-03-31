@@ -1,6 +1,9 @@
 # SpringCamadas
 Como funciona as camadas no spring e trabalhando com restFul
-  use : https://start.spring.io/
+  use este site para baixar as dependecias do framework Spring :( https://start.spring.io/ )
+  (baixe as depências marcadas e use tudo igual se disponivel na versão em que usei ou simplesmente clone e importe)
+  ![image](https://user-images.githubusercontent.com/31409846/113207002-83b56000-9246-11eb-9e14-0f1c9502c3b9.png)
+
 
 
 
