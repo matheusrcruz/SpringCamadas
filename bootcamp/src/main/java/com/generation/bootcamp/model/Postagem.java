@@ -33,7 +33,7 @@ public class Postagem {
 	private String texto;
 
 	@Temporal(TemporalType.TIMESTAMP)
-	private Date data = new java.sql.Date(System.currentTimeMillis()); /* primary key */
+	private Date data = new java.sql.Date(System.currentTimeMillis());//data colocado automatico de acordo com metodo da lang
 
 	@ManyToOne
 	@JsonIgnoreProperties("postagem") //Evitar a recursividade na postangem evitando looping infinito
